@@ -1,0 +1,11 @@
+production:
+  access_key_id: <%= ENV["AWS_ACCESS_KEY_ID"] %>
+  secret_access_key: <%= ENV["AWS_SECRET_ACCESS_KEY"] %>
+  bucket: pupular2
+  region: us-east-1
+
+development:
+  access_key_id: AKIA1111111111111UA
+  secret_access_key: secret
+  bucket: pupular2
+  region: us-east-1h

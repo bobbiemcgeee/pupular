@@ -1,0 +1,5 @@
+<%= image_tag @photo.image.thumb('400x200#').url if @photo.image_stored? %>
+
+<%= image_tag @photo.image.url %>
+
+<%= image_tag @photo.image.thumb('100x100#').url %>

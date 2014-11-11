@@ -1,0 +1,5 @@
+---
+name: crayzinesin.png
+:path: some/path.txt
+:headers:
+  x-amz-acl: public-read-write
